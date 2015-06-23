@@ -14,6 +14,8 @@
 		072853391B38EC6900943657 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072853381B38EC6900943657 /* Images.xcassets */; };
 		0728533C1B38EC6900943657 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0728533A1B38EC6900943657 /* LaunchScreen.xib */; };
 		072853481B38EC6900943657 /* DemoOfProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 072853471B38EC6900943657 /* DemoOfProgressTests.m */; };
+		072853531B38ECD500943657 /* circle01.png in Resources */ = {isa = PBXBuildFile; fileRef = 072853511B38ECD500943657 /* circle01.png */; };
+		072853541B38ECD500943657 /* circle02.png in Resources */ = {isa = PBXBuildFile; fileRef = 072853521B38ECD500943657 /* circle02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		072853411B38EC6900943657 /* DemoOfProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoOfProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		072853461B38EC6900943657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072853471B38EC6900943657 /* DemoOfProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoOfProgressTests.m; sourceTree = "<group>"; };
+		072853511B38ECD500943657 /* circle01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle01.png; sourceTree = "<group>"; };
+		072853521B38ECD500943657 /* circle02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		0728532A1B38EC6800943657 /* DemoOfProgress */ = {
 			isa = PBXGroup;
 			children = (
+				072853511B38ECD500943657 /* circle01.png */,
+				072853521B38ECD500943657 /* circle02.png */,
 				0728532F1B38EC6800943657 /* AppDelegate.h */,
 				072853301B38EC6800943657 /* AppDelegate.m */,
 				072853321B38EC6800943657 /* ViewController.h */,
@@ -199,8 +205,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072853541B38ECD500943657 /* circle02.png in Resources */,
 				072853371B38EC6800943657 /* Main.storyboard in Resources */,
 				0728533C1B38EC6900943657 /* LaunchScreen.xib in Resources */,
+				072853531B38ECD500943657 /* circle01.png in Resources */,
 				072853391B38EC6900943657 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +424,7 @@
 				0728534D1B38EC6900943657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0728534E1B38EC6900943657 /* Build configuration list for PBXNativeTarget "DemoOfProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				072853501B38EC6900943657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
